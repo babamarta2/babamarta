@@ -1,4 +1,4 @@
-Feature: Deposit bla bla
+Feature: Deposit 
 
   The lobby page footer consists of the following ordered links (mini sites):
   - About Us
