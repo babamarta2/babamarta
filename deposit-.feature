@@ -16,7 +16,7 @@ Feature: Deposit
     And I press on *Deposit* button
     Then my deposit should be successful
 
-  @LUD-1 @OPEN
+  @LUD-1 @OPEN @MANUAL
   Scenario: Deposit with fake details
     Given I am logged in as a new user
     When I navigate to the Deposit form
