@@ -1,4 +1,5 @@
 Feature: Deposit bla bla
+
   The lobby page footer consists of the following ordered links (mini sites):
   - About Us
   - Banking
@@ -7,6 +8,9 @@ Feature: Deposit bla bla
   - Responsible Gaming Policy
   - Fair Play
   - Contact Us
-  
-  #Scenario: FTD
-  
+
+  @LUD-1 @OPEN
+  Scenario: Deposit option
+    Given I am on the homepage
+    When I login
+    Then I should see the Deposit button
