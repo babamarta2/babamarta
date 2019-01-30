@@ -1,13 +1,6 @@
 Feature: Deposit 
 
-  The lobby page footer consists of the following ordered links (mini sites):
-  - About Us
-  - Banking
-  - User Agreement
-  - Privacy Policy
-  - Responsible Gaming Policy
-  - Fair Play
-  - Contact Us
+  The users should have the ability to deposit
 
   @LUD-1 @OPEN
   Scenario: Deposit option
