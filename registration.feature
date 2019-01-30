@@ -1,4 +1,3 @@
-@registration @uk @curacao @acceptance
 Feature: Registration
 
   - Registration should be possible only with valid data
@@ -10,7 +9,7 @@ Feature: Registration
   Background:
     Given I am on the pre-login lobby page
 
-  @LUD-4 @OPEN @sanity @devops
+  @LUD-4 @WIP @sanity @devops
   Scenario: Successful registration
     When I navigate to the registration form
     And I complete the registration process with valid details
