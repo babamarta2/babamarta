@@ -8,7 +8,7 @@ Feature: Deposit
     When I login
     Then I should see the Deposit button
 
-  @ORPHAN
+  @LUD-1 @OPEN
   Scenario: First Time Deposit
     Given I am logged in as a new user
     When I navigate to Deposit form
