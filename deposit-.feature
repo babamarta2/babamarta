@@ -12,7 +12,7 @@ Feature: Deposit
   Scenario: First Time Deposit
     Given I am logged in as a new user
     When I navigate to Deposit form
-    And I fill in valid deposit details
+    And I fill in "VALID" deposit details
     And I press on *Deposit* button
     Then my deposit should be successful
 
