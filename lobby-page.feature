@@ -1,6 +1,6 @@
 Feature: Lobby page
 
-  @ORPHAN
+  @LUD-1 @OPEN
   Scenario: Lobby Scenario
     Given I am on
     When I
