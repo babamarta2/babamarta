@@ -15,3 +15,11 @@ Feature: Deposit
     And I fill in valid deposit details
     And I press on *Deposit* button
     Then my deposit should be successful
+
+  @ORPHAN
+  Scenario: Deposit with fake details
+    Given I am logged in as a new user
+    When I navigate to the Deposit form
+    But I fill in "FAKE" deposit details
+    And I press on *Deposit* button
+    Then my deposit should fail
