@@ -10,7 +10,7 @@ Feature: Registration
   Background:
     Given I am on the pre-login lobby page
 
-  @ORPHAN @sanity @devops
+  @LUD-4 @OPEN @sanity @devops
   Scenario: Successful registration
     When I navigate to the registration form
     And I complete the registration process with valid details
