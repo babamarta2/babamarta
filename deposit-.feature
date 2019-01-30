@@ -2,7 +2,7 @@ Feature: Deposit
 
   The users should have the ability to deposit
 
-  @LUD-1 @OPEN
+  @LUD-1 @OPEN @uk
   Scenario: Deposit option
     Given I am on the homepage
     When I login
